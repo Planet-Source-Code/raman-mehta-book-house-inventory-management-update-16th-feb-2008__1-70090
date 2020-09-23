@@ -1,0 +1,253 @@
+[Root]
+Most Recent Package=Book House Inventory Management System Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Inventory Project\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+F:\Inventory Project\Calendar.exe=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+F:\Inventory Project\Calendar.exe=
+F:\Inventory Project\Database\inventory.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\Inventory Project\BookHouse.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Inventory Project\Calendar.exe=Yes
+F:\Inventory Project\Database\inventory.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Inventory Project\BookHouse.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Inventory Project\Calendar.exe=$(AppPath)
+F:\Inventory Project\Database\inventory.mdb=$(AppPath)\Database
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Inventory Project\BookHouse.exe=No
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Inventory Project\Calendar.exe=No
+F:\Inventory Project\Database\inventory.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=BookHouse
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=BookHouse
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|BookHouse]
+Icon1=BookHouse.exe
+Title1=BookHouse
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\Inventory Project\Package
+ProjectFolder=F:\Inventory Project
+ServerSideCab=
+File1=F:\Inventory Project\Package\setup.exe
+File2=F:\Inventory Project\Package\Setup.Lst
+File3=F:\Inventory Project\Package\BookHouse.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Book House Inventory Management System Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Inventory Project\Package
+
+[Package|Book House Inventory Management System Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Book House Inventory Management System Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Book House Inventory Management System Setup|Files Found]
+Calendar.exe=F:\Book House Inventory Project\Calendar.exe
+
+[Package|Book House Inventory Management System Setup|Files Released]
+inventory.mdb=
+
+[Package|Book House Inventory Management System Setup|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+F:\Inventory Project\Calendar.exe=
+F:\Book House Inventory Project\Calendar.exe=
+
+[Package|Book House Inventory Management System Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Book House Inventory Management System Setup|Files Added]
+calendar.exe=
+inventory.mdb=
+
+[Package|Book House Inventory Management System Setup|Files Removed]
+
+[Package|Book House Inventory Management System Setup|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Book House Inventory Project\BookHouse.exe=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+F:\Book House Inventory Project\Calendar.exe=Yes
+
+[Package|Book House Inventory Management System Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Book House Inventory Management System Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Book House Inventory Management System Setup|Install Locations]
+F:\Inventory Project\BookHouse.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Inventory Project\Calendar.exe=$(AppPath)
+F:\Inventory Project\Database\inventory.mdb=$(AppPath)\Database
+F:\Book House Inventory Project\BookHouse.exe=$(AppPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+F:\Book House Inventory Project\Calendar.exe=$(AppPath)
+
+[Package|Book House Inventory Management System Setup|Configure Shared Files]
+Applicable=Yes
+F:\Inventory Project\BookHouse.exe=No
+D:\software\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Inventory Project\Calendar.exe=No
+F:\Inventory Project\Database\inventory.mdb=No
+F:\Book House Inventory Project\BookHouse.exe=No
+F:\Book House Inventory Project\Calendar.exe=No
+
+[Package|Book House Inventory Management System Setup|Distribution]
+Type=single
+Size=
+Title=Book House Inventory Management System
+
+[Package|Book House Inventory Management System Setup|IconGroups]
+Group0=BookHouse
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Book House Inventory Management System Setup|BookHouse]
+Icon1=BookHouse.exe
+Title1=BookHouse Inventory Management System Version 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Book House Inventory Management System Setup|Package]
+PackageFolder=F:\Inventory Project\Package
+ProjectFolder=F:\Book House Inventory Project
+ServerSideCab=
+File1=F:\Inventory Project\Package\setup.exe
+File2=F:\Inventory Project\Package\Setup.Lst
+File3=F:\Inventory Project\Package\BookHouse.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
